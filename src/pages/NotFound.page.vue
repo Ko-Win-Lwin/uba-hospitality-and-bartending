@@ -1,5 +1,5 @@
 <template>
-  <RouterView/>
+  <div>Not found</div>
 </template>
 
 <script setup>

@@ -1,8 +1,9 @@
 <template>
-  <RouterView/>
+    <div>Contact Us</div>
 </template>
 
 <script setup>
+
 </script>
 
 <style>

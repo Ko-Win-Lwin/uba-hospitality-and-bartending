@@ -1,5 +1,5 @@
 <template>
-  <RouterView/>
+    <div>Courses</div>
 </template>
 
 <script setup>

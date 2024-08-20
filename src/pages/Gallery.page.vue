@@ -1,5 +1,5 @@
 <template>
-  <RouterView/>
+    <div>Gallery</div>
 </template>
 
 <script setup>
