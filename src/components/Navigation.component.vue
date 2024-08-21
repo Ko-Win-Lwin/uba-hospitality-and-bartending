@@ -5,7 +5,7 @@
     >
       <RouterLink to="/" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Append</h1>
+        <h1 class="sitename">UBA Institute</h1>
       </RouterLink>
 
       <nav id="navmenu" class="navmenu mx-lg-auto">
