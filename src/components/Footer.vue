@@ -2,9 +2,9 @@
   <footer id="footer" class="footer position-relative">
     <div class="container footer-top">
       <div class="row gy-4">
-        <div class="col-lg-5 col-md-12 footer-about">
+        <div class="col-lg-4 col-md-12 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">UBA</span>
+            <span class="sitename">UBA Instutite</span>
           </a>
           <p>
             Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada
@@ -30,8 +30,8 @@
           </ul>
         </div>
 
-        <div class="col-lg-2 col-6 footer-links">
-          <h4>Our Services</h4>
+        <div class="col-lg-3 col-6 footer-links">
+          <h4>Our Courses</h4>
           <ul>
             <li><RouterLink to="#">F&B Service</RouterLink></li>
             <li><RouterLink to="#">Mixologist and Bartending</RouterLink></li>
@@ -41,7 +41,7 @@
         </div>
 
         <div
-          class="col-lg-3 col-md-12 footer-contact text-center text-md-start"
+          class="col-lg-3 col-md-12 col-12 footer-contact text-center text-md-start"
         >
           <h4>Contact Us</h4>
           <p>249. Zabuthiri 8<sup>th</sup> Street, 6 West Qtr, Thaketa</p>

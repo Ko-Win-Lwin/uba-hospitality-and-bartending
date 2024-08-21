@@ -14,19 +14,17 @@
 
           <li><RouterLink to="/about">About</RouterLink></li>
 
-          <li><RouterLink to="/courses">Courses</RouterLink></li>
-
           <li><RouterLink to="/gallery">Gallery</RouterLink></li>
           <li class="dropdown">
             <RouterLink to="/services"
-              ><span>Services</span>
+              ><span>Courses</span>
               <i class="bi bi-chevron-down toggle-dropdown"></i
             ></RouterLink>
             <ul>
-              <li><RouterLink to="#1">Dropdown 1</RouterLink></li>
-              <li><RouterLink to="#2">Dropdown 2</RouterLink></li>
-              <li><RouterLink to="#3">Dropdown 3</RouterLink></li>
-              <li><RouterLink to="#4">Dropdown 4</RouterLink></li>
+              <li><RouterLink to="#1">F&B Service </RouterLink></li>
+              <li><RouterLink to="#2">Mixologist and Bartending</RouterLink></li>
+              <li><RouterLink to="#3">Hotel Housekeeping Courses</RouterLink></li>
+              <li><RouterLink to="#4">Hotel English Courses</RouterLink></li>
             </ul>
           </li>
           <li><RouterLink to="/contact">Contact Us</RouterLink></li>
