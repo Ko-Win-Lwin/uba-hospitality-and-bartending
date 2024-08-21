@@ -21,6 +21,7 @@
 
   <!-- Our Courses -->
   <section>
+    <Title title="Our Courses"></Title>
     <CourseList></CourseList>
     <div class="d-grid place-items-center mt-4">
         <button @click="router.push({ path: `/courses` })" type="button" class="btn btn-outline-orange text-secondary mx-auto">More Courses</button> 
@@ -31,6 +32,7 @@
 <script setup>
 import { useRouter } from "vue-router";
 import CourseList from "../components/Courses/CourseList.component.vue";
+import Title from "../components/Title.component.vue"
 
 const router = useRouter()
 
