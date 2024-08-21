@@ -16,15 +16,16 @@
 
           <li><RouterLink to="/gallery">Gallery</RouterLink></li>
           <li class="dropdown">
-            <RouterLink to="/services"
+            <RouterLink to="/courses"
               ><span>Courses</span>
               <i class="bi bi-chevron-down toggle-dropdown"></i
             ></RouterLink>
             <ul>
-              <li><RouterLink to="#1">F&B Service </RouterLink></li>
-              <li><RouterLink to="#2">Mixologist and Bartending</RouterLink></li>
-              <li><RouterLink to="#3">Hotel Housekeeping Courses</RouterLink></li>
-              <li><RouterLink to="#4">Hotel English Courses</RouterLink></li>
+              <li v-for="course in courses" :key="course.id">
+                <RouterLink :to="`/courses/${course.title.replace(/\s+/g, '-').toLowerCase()}`">{{
+                  course.title
+                }}</RouterLink>
+              </li>
             </ul>
           </li>
           <li><RouterLink to="/contact">Contact Us</RouterLink></li>
@@ -37,6 +38,12 @@
 
 <script setup>
 import { RouterLink } from "vue-router";
+
+const courses = [
+  { id: 1, category: "F&B", title: "Food and Beverage" },
+  { id: 2, category: "Hotel", title: "Hotel and Housekeeping" },
+  { id: 3, category: "Bartender", title: "Bartender course" },
+];
 </script>
 
 <style>

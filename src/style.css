@@ -1768,55 +1768,54 @@
   /*--------------------------------------------------------------
   # Recent Posts Section
   --------------------------------------------------------------*/
-  .recent-posts article {
+  .course article {
     background: var(--surface-color);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
     padding: 30px;
-    height: 100%;
     border-radius: 10px;
     overflow: hidden;
   }
   
-  .recent-posts .post-img {
-    max-height: 240px;
-    margin: -30px -30px 15px -30px;
-    overflow: hidden;
+  .course .post-img {
+    max-height: 240px !important;
+    margin: -30px -30px 15px -30px !important;
+    overflow: hidden !important;
   }
   
-  .recent-posts .post-category {
+  .course .post-category {
     font-size: 16px;
     color: color-mix(in srgb, var(--default-color), transparent 50%);
     margin-bottom: 10px;
   }
   
-  .recent-posts .title {
+  .course .title {
     font-size: 20px;
     font-weight: 700;
     padding: 0;
     margin: 0 0 20px 0;
   }
   
-  .recent-posts .title a {
+  .course .title a {
     color: var(--heading-color);
     transition: 0.3s;
   }
   
-  .recent-posts .title a:hover {
+  .course .title a:hover {
     color: var(--accent-color);
   }
   
-  .recent-posts .post-author-img {
+  .course .post-author-img {
     width: 50px;
     border-radius: 50%;
     margin-right: 15px;
   }
   
-  .recent-posts .post-author {
+  .course .post-author {
     font-weight: 600;
     margin-bottom: 5px;
   }
   
-  .recent-posts .post-date {
+  .course .post-date {
     font-size: 14px;
     color: color-mix(in srgb, var(--default-color), transparent 50%);
     margin-bottom: 0;
@@ -2742,36 +2741,36 @@
     font-size: 14px;
   }
   
-  .recent-posts-widget .post-item {
+  .course-widget .post-item {
     display: flex;
     margin-bottom: 15px;
   }
   
-  .recent-posts-widget .post-item:last-child {
+  .course-widget .post-item:last-child {
     margin-bottom: 0;
   }
   
-  .recent-posts-widget .post-item img {
+  .course-widget .post-item img {
     width: 80px;
     margin-right: 15px;
   }
   
-  .recent-posts-widget .post-item h4 {
+  .course-widget .post-item h4 {
     font-size: 15px;
     font-weight: bold;
     margin-bottom: 5px;
   }
   
-  .recent-posts-widget .post-item h4 a {
+  .course-widget .post-item h4 a {
     color: var(--default-color);
     transition: 0.3s;
   }
   
-  .recent-posts-widget .post-item h4 a:hover {
+  .course-widget .post-item h4 a:hover {
     color: var(--accent-color);
   }
   
-  .recent-posts-widget .post-item time {
+  .course-widget .post-item time {
     display: block;
     font-style: italic;
     font-size: 14px;

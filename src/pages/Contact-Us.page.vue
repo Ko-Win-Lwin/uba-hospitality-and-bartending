@@ -2,9 +2,7 @@
   <!-- Contact Section -->
   <section id="contact" class="contact section">
     <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up">
-      <h2>Contact</h2>
-    </div>
+    <Title title="Contact"></Title>
     <!-- End Section Title -->
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -61,6 +59,7 @@
 </template>
 
 <script setup>
+import Title from '../components/Title.component.vue';
 </script>
 
 <style>
