@@ -26,7 +26,6 @@
             <li><RouterLink to="/about">About us</RouterLink></li>
             <li><RouterLink to="/courses">Courses</RouterLink></li>
             <li><RouterLink to="/gallery">Gallery</RouterLink></li>
-            <li><RouterLink to="/services">Services</RouterLink></li>
           </ul>
         </div>
 
