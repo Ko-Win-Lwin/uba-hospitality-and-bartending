@@ -43,6 +43,7 @@ const courses = [
   { id: 1, category: "F&B", title: "Food and Beverage" },
   { id: 2, category: "Hotel", title: "Hotel and Housekeeping" },
   { id: 3, category: "Bartender", title: "Bartender course" },
+  { id: 4, category: "Language", title: "Hotel English Course" }
 ];
 </script>
 
