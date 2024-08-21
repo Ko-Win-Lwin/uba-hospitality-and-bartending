@@ -1,10 +1,13 @@
 <template>
-  <!-- About Section -->
-  <section id="about" class="about section light-background">
-    <Title title="About"></Title>
+  <Title title="About"></Title>
+  <section id="about" class="about section">
     <div class="container" data-aos="fade-up" data-aos-delay="100">
       <div class="row align-items-xl-center gx-5">
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div
+          class="col-lg-4 col-md-12 mb-4"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
           <div class="icon-box">
             <i class="bi bi-buildings"></i>
             <h3>Eius provident</h3>
@@ -14,8 +17,10 @@
             </p>
           </div>
         </div>
-        <div class="col-lg-6 content">
-          <h2>Hospitality Management မှာအခွင့်အလမ်းရချင်သူတိုင်းအတွက် UBA</h2>
+        <div class="col-lg-6 content px-5">
+          <h2 class="fs-5" style="font-size: 1.2rem !important">
+            Hospitality Management မှာအခွင့်အလမ်းရချင်သူတိုင်းအတွက် UBA
+          </h2>
           <p class="lh-lg">
             ၂၀၁၉ ကနေ ယနေ့တိုင်ဖွင့်လှစ်လာခဲ့ပြီး ၅ နှစ်သက်တမ်းရှိပြီဖြစ်တဲ့ UBA
             က ပြည်တွင်းမှာသာမက ပြည်ပမှာပါ ကျောင်းသူ/ သားပေါင်း ၂၀၀၀ ကျော်အထိ
@@ -38,28 +43,19 @@
             အားတက်သရောချိတ်ဆက်ပေးပါတယ်နော်။
           </p>
 
-          <p class="lh-lg">
-            နယ်မှသင်တန်းတက်ချင်တဲ့သူတွေအတွက် လည်း အဆောင်ကောင်းများရှိပါတယ်။ 💰
-            သင်တန်းကြေးစရံများကြိုသွင်းရန်အတွက်လည်း
-          </p>
-          <ul>
-            <li>KBZ pay</li>
-            <li>Wave pay</li>
-            <li>UAB pay</li>
-            <li>AYA pay</li>
-          </ul>
-          <p class="lh-lg">စတဲ့ Payment တွေ လက်ခံပေးပါတယ်။</p>
-          <p class="lh-lg">
-            အခုလာမယ့်ဧပြီလဟာဆိုရင် ပြည်ပကိုထွက်ဖို့
-            ပြင်ဆင်ချိန်အကောင်းဆုံးဖြစ်တာမို့
-            နိုင်ငံရပ်ခြားမှာငွေရှာပြီးကြိုးစားချင်သူလူငယ်များကို UBA မှ
-            နွေးထွေးစွာကြိုဆိုလိုက်ပါတယ်။
-          </p>
-          <p class="fw-bold">ဆက်သွယ်ရန်</p>
-          <div class="d-flex justify-content-between align-items-center gap-2">
-            <div class="d-flex gap-3">☎️<span class="fw-semibold">09 740 828 924</span></div>
-            <div class="d-flex gap-3">☎️<span class="fw-semibold">09 760 654 828</span></div>
-            <div class="d-flex gap-3">☎️<span class="fw-semibold">09 407 654 449</span></div>
+          <p class="fw-semibold">ဆက်သွယ်ရန်</p>
+          <div
+            class="d-flex flex-column flex-lg-row justify-content-between align-items-center gap-2"
+          >
+            <div class="d-flex gap-3">
+              ☎️<span class="fw-medium">09 740 828 924</span>
+            </div>
+            <div class="d-flex gap-3">
+              ☎️<span class="fw-medium">09 760 654 828</span>
+            </div>
+            <div class="d-flex gap-3">
+              ☎️<span class="fw-medium">09 407 654 449</span>
+            </div>
           </div>
 
           <p class="lh-lg mt-4 fw-semibold">
@@ -71,4 +67,27 @@
       </div>
     </div>
   </section>
-  
+</template>
+
+<script setup>
+import Title from "../components/Title.component.vue";
+</script>
+
+
+<!-- <p class="lh-lg">
+    နယ်မှသင်တန်းတက်ချင်တဲ့သူတွေအတွက် လည်း အဆောင်ကောင်းများရှိပါတယ်။ 💰
+    သင်တန်းကြေးစရံများကြိုသွင်းရန်အတွက်လည်း
+  </p>
+  <ul>
+    <li>KBZ pay</li>
+    <li>Wave pay</li>
+    <li>UAB pay</li>
+    <li>AYA pay</li>
+  </ul>
+  <p class="lh-lg">စတဲ့ Payment တွေ လက်ခံပေးပါတယ်။</p>
+  <p class="lh-lg">
+    အခုလာမယ့်ဧပြီလဟာဆိုရင် ပြည်ပကိုထွက်ဖို့
+    ပြင်ဆင်ချိန်အကောင်းဆုံးဖြစ်တာမို့
+    နိုင်ငံရပ်ခြားမှာငွေရှာပြီးကြိုးစားချင်သူလူငယ်များကို UBA မှ
+    နွေးထွေးစွာကြိုဆိုလိုက်ပါတယ်။
+  </p> -->
