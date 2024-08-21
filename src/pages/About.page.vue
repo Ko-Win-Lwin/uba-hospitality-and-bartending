@@ -18,7 +18,7 @@
           </div>
         </div>
         <div class="col-lg-6 content px-5">
-          <h2 class="fs-5" style="font-size: 1.2rem !important">
+          <h2 class="fs-5">
             Hospitality Management မှာအခွင့်အလမ်းရချင်သူတိုင်းအတွက် UBA
           </h2>
           <p class="lh-lg">
@@ -45,7 +45,7 @@
 
           <p class="fw-semibold">ဆက်သွယ်ရန်</p>
           <div
-            class="d-flex flex-column flex-lg-row justify-content-between align-items-center gap-2"
+            class="d-flex flex-column flex-lg-row justify-content-between align-lg-items-center gap-2"
           >
             <div class="d-flex gap-3">
               ☎️<span class="fw-medium">09 740 828 924</span>
