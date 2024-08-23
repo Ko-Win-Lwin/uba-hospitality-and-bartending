@@ -2,21 +2,18 @@
   <main class="main">
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
-      <img :src="images[currentImageIndex]" alt="" data-aos="fade-in" class=""/>
+      <img :src="images[currentImageIndex]" alt="" data-aos="fade-in" class="img-fluid w-100"/>
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
-            <h2 data-aos="fade-up" data-aos-delay="100" class="lh-lg">
-              <div>လက်တွေ့မှာ ဘာစလုပ်ရမှန်းမသိသေးရင် ကျွန်တော်တို့ရဲ့</div>
-              <div>UBA - United Bartender & Hospitality Academy ကို</div>
+
+            <h2 data-aos="fade-up" data-aos-delay="100" class="lh-lg fs-2">
+              <div>လက်တွေ့မှာ ဘာစလုပ်ရမှန်းမသိသေးရင် ကျွန်တော်တို့ရဲ့ </div>
+              <di>UBA - United Bartender & Hospitality Academy ကို</di> 
               <div>လှမ်းခဲ့ဖို့ ဖိတ်ခေါ်ပါရစေလား</div>
             </h2>
-            <RouterLink
-              class="btn btn-outline-orange mt-4 px-4 py-2 fs-3 fw-semibold"
-              to="/contact"
-            >
-              Contact
-            </RouterLink>
+            <RouterLink class="btn btn-outline-orange mt-4  px-lg-4 py-lg-2 fs-5 fw-semibold" to="/contact"
+              >Contact</RouterLink>
           </div>
         </div>
       </div>
@@ -52,7 +49,7 @@ const images = [
   "src/assets/img/banner/banner-2.jpg",
   "src/assets/img/banner/banner-1.jpg",
   "src/assets/img/banner/banner-3.jpg",
-]
+];
 const currentImageIndex = ref(0);
 let intervalId = null;
 
