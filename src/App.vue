@@ -13,7 +13,7 @@ import FooterBanner from "./components/FooterBanner.component.vue";
 import Footer from "./components/Footer.component.vue";
 import NavigationBar from "./components/Navigation.component.vue";
 import Sidebar from "./components/Sidebar.component.vue";
-import { onBeforeUnmount, ref } from "vue";
+import { onBeforeUnmount, onMounted, ref } from "vue";
 import { useRouter } from "vue-router";
 const router = useRouter()
 
@@ -31,10 +31,26 @@ const handleRouteChange = () => {
 
 // Cleanup on component unmount
 onBeforeUnmount(() => {
+  window.removeEventListener("resize", handleResize);
   router.afterEach(() => {}); // This is to remove the afterEach guard if necessary
 });
 
+
 router.afterEach(handleRouteChange);
+
+
+
+// Function to handle screen size changes and close mobile nav
+const handleResize = () => {
+  if (window.innerWidth > 768) {
+    mobileNavActive.value = false;
+  }
+};
+
+onMounted(() => {
+  window.addEventListener("resize", handleResize);
+});
+
 
 </script>
 
