@@ -2,13 +2,7 @@
   <main class="main">
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
-      <img
-        :src="getImagePath(currentImageIndex)"
-        :key="currentImageIndex"
-        alt=""
-        data-aos="fade-in"
-        class="fade"
-      />
+      <img :src="images[currentImageIndex]" alt="" data-aos="fade-in" class=""/>
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -54,8 +48,11 @@ import { onBeforeUnmount, onMounted, ref } from "vue";
 
 const router = useRouter();
 
-const images = [1, 2, 3]; // Use image indexes for dynamic loading
-
+const images = [
+  "src/assets/img/banner/banner-2.jpg",
+  "src/assets/img/banner/banner-1.jpg",
+  "src/assets/img/banner/banner-3.jpg",
+]
 const currentImageIndex = ref(0);
 let intervalId = null;
 
@@ -72,7 +69,6 @@ onMounted(() => {
 onBeforeUnmount(() => {
   if (intervalId) clearInterval(intervalId);
 });
-
 </script>
 
 <style scoped>
