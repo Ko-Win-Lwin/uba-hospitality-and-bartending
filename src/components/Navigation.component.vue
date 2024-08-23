@@ -30,7 +30,7 @@
           </li>
           <li><RouterLink to="/contact">Contact Us</RouterLink></li>
         </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        <i @click="$emit('toggleMenu')" class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
     </div>
   </header>
