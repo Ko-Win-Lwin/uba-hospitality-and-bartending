@@ -73,10 +73,6 @@ onBeforeUnmount(() => {
   if (intervalId) clearInterval(intervalId);
 });
 
-const getImagePath = (index) => {
-  // Use require to dynamically load images
-  return `../assets/img/banner/banner-${images[index]}.jpg`;
-};
 </script>
 
 <style scoped>
