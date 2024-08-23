@@ -7,7 +7,7 @@
   >
     <article>
       <div class="post-img">
-        <img src="../..//assets/img/blog/blog-1.jpg" alt="" class="img-fluid" />
+        <img src="../../assets/img/blog/blog-1.jpg" alt="" class="img-fluid" />
       </div>
 
       <p class="post-category">{{ course.category }}</p>
@@ -36,6 +36,8 @@ const showCourseDetail = (title) => {
   title = title.replace(/\s+/g, '-').toLowerCase();
   router.push({ path: `/courses/${title}` });
 }
+
+
 </script>
 
 <style>
