@@ -9,8 +9,7 @@
 </template>
 
 <script setup>
-import FooterBanner from "./components/FooterBanner.component.vue";
-import Footer from "./components/Footer.component.vue";
+import FooterBanner from "./components/FooterBanner.component.vue"
 import NavigationBar from "./components/Navigation.component.vue";
 import Sidebar from "./components/Sidebar.component.vue";
 import { onBeforeUnmount, onMounted, ref } from "vue";
