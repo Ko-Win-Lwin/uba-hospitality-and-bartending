@@ -32,10 +32,11 @@
         <div class="col-lg-3 col-6 footer-links">
           <h4>Our Courses</h4>
           <ul>
-            <li><RouterLink to="#">F&B Service</RouterLink></li>
-            <li><RouterLink to="#">Mixologist and Bartending</RouterLink></li>
-            <li><RouterLink to="#">Hotel Housekeeping Courses</RouterLink></li>
-            <li><RouterLink to="#">Hotel English Courses</RouterLink></li>
+            <li><RouterLink to="#">Mixologist & Bartending Course</RouterLink></li>
+            <li><RouterLink to="#">Food & Beverage Service Course</RouterLink></li>
+            <li><RouterLink to="#">Housekeeping Course</RouterLink></li>
+            <li><RouterLink to="#">Pastry & Bakery Course</RouterLink></li>
+            <li><RouterLink to="#">Food & Beverage Production (Culinary) Course</RouterLink></li>
           </ul>
         </div>
 

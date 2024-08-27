@@ -42,10 +42,11 @@
 import { RouterLink } from "vue-router";
 
 const courses = [
-  { id: 1, category: "F&B", title: "Food and Beverage" },
-  { id: 2, category: "Hotel", title: "Hotel and Housekeeping" },
-  { id: 3, category: "Bartender", title: "Bartender course" },
-  { id: 4, category: "Language", title: "Hotel English Course" }
+  { id: 1, category: "F&B", title: "Mixologist & Bartending Course" },
+  { id: 2, category: "Hotel", title: "Food & Beverage Service Course" },
+  { id: 3, category: "Bartender", title: "Housekeeping Course" },
+  { id: 4, category: "Language", title: "Pastry & Bakery Course" },
+  { id: 5, category: "Culnary", title: "Food & Beverage Production (Culinary) Course"}
 ];
 </script>
 
