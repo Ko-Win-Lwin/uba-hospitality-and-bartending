@@ -14,7 +14,7 @@
                     </div>
                 
                     <div class="col-lg-6 d-flex align-items-center features-img-bg" data-aos="zoom-out">
-                        <img src="../assets/img/blog/blog-1.jpg" class="img-fluid" alt="">
+                        <img src="https://drive.google.com/file/d/1b8KWlzAxr-brE28cj4K7fDAeOq67Si1j/view?usp=drive_link" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>

@@ -1,10 +1,12 @@
 <template>
-  <header id="header" class="header d-flex align-items-center sticky-top">
+  <header id="header" class="header bg-light d-flex align-items-center sticky-top">
     <div
       class="container-fluid position-relative d-flex align-items-center justify-content-between"
     >
       <RouterLink to="/" class="logo d-flex align-items-center me-auto me-xl-0">
-        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <div class="bg-dark p-2 me-2">
+          <img src="../assets/img/logo/logo.png" alt="" class="">
+        </div>
         <h1 class="sitename">UBA Institute</h1>
       </RouterLink>
 
