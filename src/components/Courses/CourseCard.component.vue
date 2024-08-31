@@ -1,16 +1,14 @@
 <template>
   <div
-    @click="showCourseDetail(course.title)"
     class="col-lg-4 col-md-6"
     data-aos="fade-up"
     data-aos-delay="100"
   >
     <article>
       <div class="post-img">
-        <img src="../../assets/img/blog/blog-1.jpg" alt="" class="img-fluid" />
+        <img :src="course.img" alt="" class="img-fluid" />
       </div>
 
-      <p class="post-category">{{ course.category }}</p>
 
       <h2 class="title">
         <p>{{ course.title }}</p>

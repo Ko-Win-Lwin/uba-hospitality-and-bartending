@@ -1,7 +1,9 @@
 <template>
+  <section>
     <Title title="Our Courses"></Title>
     <CourseList v-if="!hasChildRoute"></CourseList>
     <router-view></router-view>
+  </section>
 </template>
 
 <script setup>

@@ -1,5 +1,5 @@
 <template>
-  <div class="container copyright text-center light-background py-4">
+  <div class="copyright text-center light-background py-4">
     <p>
       © <span>Copyright</span> <strong class="sitename">UBA</strong> | 
       <span>All Rights Reserved</span>
